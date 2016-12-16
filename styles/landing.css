@@ -34,7 +34,7 @@ body.landing {
      position: relative;
      padding: 2rem;
      text-align: center;
-     opacity: 0;
+     opacity: 1;
      -webkit-transform: scaleX(0.9) translateY(3rem);           /*The vendor prefixes (-webkit and -moz) that precede the transform, transition, and transition-delay properties ensure that our animations are compatible across browsers.*/
      -moz-transform: scaleX(0.9) translateY(3rem);
      transform: scaleX(0.9) translateY(3rem);
