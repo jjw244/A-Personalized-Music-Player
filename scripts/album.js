@@ -57,7 +57,6 @@ var createSongRow = function (songNumber, songName, songLength) {
     };
 
  // HTML elements required to display on the album page
-
 var albumTitle = document.getElementsByClassName('album-view-title')[0];
 var albumArtist = document.getElementsByClassName('album-view-artist')[0];
 var albumReleaseInfo = document.getElementsByClassName('album-view-release-info')[0];
@@ -85,10 +84,14 @@ var setCurrentAlbum = function (album) {
      setCurrentAlbum(albumPicasso);
      
      var albums = [albumPicasso, albumMarconi, albumFelix];
+     var index = 1;
      albumImage.addEventListener("click", function (event) {
-            for (var i = 0; i < albums.length; i++) {
-                setCurrentAlbum(albums[i]);
-            }
+         setCurrentAlbum(albums[index]);
+         index++;
+         if (index === albums.length) {
+             index = 0;
+         }
+            
      });
      
  };
