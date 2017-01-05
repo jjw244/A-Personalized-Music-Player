@@ -23,7 +23,7 @@
 .player-bar .container {
      display: table;
      padding: 0;
-     width: 90%;
+     width: 100%;
      min-height: 100%;
 }
  
@@ -34,7 +34,7 @@
  
 .player-bar .main-controls {
      width: 25%;
-     text-align: left;
+     text-align: center;
      padding-right: 1rem;
 }
   
@@ -134,7 +134,7 @@
 
 .player-bar .volume {
      width: 25%;
-     text-align: right;
+     text-align: center;
 }
 
 .player-bar .volume .icon {
@@ -151,7 +151,7 @@
 
 @media (max-width: 640px) {
      .player-bar {
-         padding: 1rem;
+         padding: 3rem;
          background-color: rgba(0,0,0,0.6);
      }
  
