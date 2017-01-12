@@ -12,7 +12,7 @@ var albumPicasso = {
             { title: 'Pink', duration: '3:21'},
             { title: 'Magenta', duration: '2:15'}
         ]
-    };
+};
  
  // Another Example Album
 var albumMarconi = {
@@ -28,4 +28,4 @@ var albumMarconi = {
             { title: 'Can you hear me now?', duration: '3:14' },
             { title: 'Wrong phone number', duration: '2:15'}
         ]
-    };
+};
