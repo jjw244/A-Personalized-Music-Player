@@ -32,6 +32,10 @@
   vertical-align: middle;
 }
 
+.player-bar .control-group .ion-volume-high {
+  color: white;
+}
+
 .player-bar .main-controls {
   width: 25%;
   text-align: center;
@@ -51,6 +55,7 @@
   width: 50%;
   text-align: center;
   position: relative;
+  color: white;
 }
 
 .player-bar .currently-playing .song-name,
@@ -85,12 +90,14 @@
 .seek-control .current-time {
   position: absolute;
   top: 0.5rem;
+  color: white;
 }
 
 .seek-control .total-time {
   position: absolute;
   right: 0;
   top: 0.5rem;
+  color: white;
 }
 
 .seek-bar {

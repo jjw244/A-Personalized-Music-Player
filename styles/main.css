@@ -11,14 +11,14 @@ html {
 
 body {
   font-family: 'Open Sans'; 
-  color: rgba(119,143,150,1);             
+  color: rgba(120,143,150,1);             
   min-height: 100%;         
 }
 
 .navbar {
   position: relative;
   padding: 0.5rem;
-  background-color: rgba(119,143,150,1);
+  background-color: rgba(255, 255, 255, 0);
   z-index: 1;
 }
 
