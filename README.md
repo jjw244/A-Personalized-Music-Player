@@ -6,13 +6,13 @@
 ### Installation 
 
 - Clone this repository into your GitHub account
- - Please see the following GitHub documentation for more details: 
-   [Cloning a Repository](https://help.github.com/articles/cloning-a-repository/)
 
 ```$ git clone https://github.com/jjw244/a-personalized-music-player.git```
-
-- Navigate to the fixtures.js folder and change out your music with the preloaded files
+   
+- Navigate to fixtures.js in the scripts folder and change out your music with the preloaded files
 - Feel free to personalize any other aspects you so desire! 
+  - Please see the following GitHub documentation for more details on cloning: 
+   [Cloning a Repository](https://help.github.com/articles/cloning-a-repository/)
 
 #### Built with:
 - JavaScript
@@ -21,5 +21,5 @@
 - CSS3
 
 
-##### Runtime issues
+##### Runtime errors
 please contact jjw244@gmail.com
