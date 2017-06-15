@@ -1,10 +1,11 @@
 body.album {
-  background-image: url(../assets/images/piano_4.png);
+  background-image: url(../assets/images/backgrounds/piano_4.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
   padding-bottom: 200px;
+  color: rgba(195,195,214,1);
 }
  
 .album-cover-art {
@@ -68,7 +69,7 @@ body.album {
   text-align: center;
   font-size: 14px;
   background-color: white;
-  color: rgba(119,143,151,1);
+  color: rgba(195,195,214,1);
   border-radius: 50% 50%;
   display: inline-block;
   width: 28px;
@@ -78,7 +79,7 @@ body.album {
 .album-song-button:hover {
   cursor: pointer;
   color: white;
-  background-color: rgba(119,143,151,1);
+  background-color: rgba(195,195,214,1);
 }
  
 .album-song-button span {
@@ -87,11 +88,11 @@ body.album {
 
 @media (max-width: 640px) and (min-width: 320px) {
   .album-view-details {
-     text-align: center;
+    text-align: center;
   }
 
   .album-view-title {
-     margin-top: 0;   
+    margin-top: 0;   
   }
 }
  
@@ -99,7 +100,7 @@ body.album {
   .album-view-song-list {
     position: relative;
     top: 1rem;
-    width: 80%;
+    width: 100%;
     margin: auto;
   }
 }
